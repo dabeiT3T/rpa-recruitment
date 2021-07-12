@@ -2,11 +2,13 @@
     "name": "researchpanelasia/greeter-20150728",
     "description": "Skill check for RPA engineer recruitment",
     "require": {
-        "phpunit/phpunit": "^4.7"
+        "php": "^7.0",
+        "phpunit/phpunit": "^6.2",
+        "nesbot/carbon": "^2.50"
     },
     "autoload": {
-        "psr-0": {
-            "MyGreeter": "lib/"
+        "psr-4": {
+            "MyGreeter\\": "lib"
         }
     },
     "authors": [
